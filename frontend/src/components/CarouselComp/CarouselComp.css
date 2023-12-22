@@ -1,0 +1,14 @@
+.carousel-image {
+  height: 87vh;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 20 20 16px rgba(0, 0, 0, 0.75);
+}
+
+.carousel {
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+ position: relative;
+}
+
