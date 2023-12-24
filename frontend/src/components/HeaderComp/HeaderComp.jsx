@@ -1,6 +1,8 @@
 import React from 'react';
 import './HeaderComp.css';
 import {Button} from '@mui/material'
+import { Link } from 'react-router-dom';
+
 const HeaderComp = () => {
   return (
     <div className="header">
@@ -10,8 +12,8 @@ const HeaderComp = () => {
       <div className="navbar">
         <nav>
           <ul>
-            <li><Button variant="text"><a href="#home">Overview</a></Button></li>
-            <li><Button variant="outlined"><a href="#home">Members</a></Button></li>
+            <Link to='/'><Button variant="text">Overview</Button></Link>
+            <Link to='/family-tree'><Button variant="outlined">Family Tree</Button></Link>
             
           </ul>
         </nav>

@@ -37,6 +37,7 @@ const CarouselComp = () => {
           </div>
         ))}
       </Slider>
+      
     </div>
   );
 };

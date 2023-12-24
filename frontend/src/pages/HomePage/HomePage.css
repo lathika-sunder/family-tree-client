@@ -1,28 +1,61 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+
 body {
   margin: 0;
   padding: 0;
 }
 
 .home {
-  font-family: "Cabin", sans-serif;
   margin: 0;
   padding: 0;
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #00031C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
 }
 body {
   overflow-x: hidden;
 }
-.type-animation {
-  font-weight: bold;
-  font-size: xx-large;
-  padding: 5vh;
+
+.carousel-comp {
+  width: 50%;
+}
+.content {
   display: flex;
   justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  user-select: none;
+}
+.front-page-container {
+  display: flex;
+  flex-direction: row;
+  padding: 5vh;
+}
+.welcome-content {
+  font-family: "Poppins", sans-serif;
+  font-size: xx-large;
+  text-align: start;
+  padding-left: 12vh;
+  font-weight: bolder;
+  color: "black";
+}
+
+.welcome-content span {
+  color: #3498db; /* Adding a color to the span if needed */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* align-items: center; */
 }
 .family-tree {
-
-
-  height: 100%;
-  margin: 5vh;
+  margin-top: 5vh;
+  margin-left: 12vh;
 }

@@ -1,5 +1,8 @@
 .family-tree-comp {
-  background: rgba(255, 255, 255, 0.25);
+  background: rgb(0, 0, 0);
+  background-image: url('https://wallpapercave.com/wp/wp3663377.jpg');
+  height: 100vh;
+ 
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -9,7 +12,7 @@
 .card{
   img{
     height: 18vh;
-    /* width: 18vh; */
+    
   }
 }
 .family-tree-comp {
@@ -18,7 +21,7 @@
   align-items: center;
 }
 
-/* Add a media query for smaller screens */
+
 @media (max-width: 768px) {
   .family-tree-comp {
     padding: 10px; /* Adjust as needed */
@@ -67,5 +70,3 @@
   width: 100%;
   height: 100vh; /* Use 100vh to make the container take up the full viewport height */
 }
-
-/* Adjust other styles as needed */
