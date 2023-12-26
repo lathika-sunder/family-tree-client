@@ -53,9 +53,29 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  /* align-items: center; */
+  align-items: center;
 }
 .family-tree {
   margin-top: 5vh;
   margin-left: 12vh;
+}
+
+@media (max-width: 768px) {
+  .carousel-comp {
+    width: 100%;
+  }
+  .carousel-comp img{
+    width: 80%;
+    height: 100%;
+  }
+  .content{
+    flex-direction: column;
+  }
+  .front-page-container{
+    flex-direction: column;
+  }
+  .welcome-content{
+    padding-left: 0%;
+    padding-top: 4vh;
+  }
 }
