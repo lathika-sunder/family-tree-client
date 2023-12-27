@@ -18,6 +18,7 @@
   color: #000000; /* Change the text color as needed */
 }
 .heading h1 {
+  padding-left: 4vh;
   margin: 1;
   font-weight: bold;
   font-size: 4.4vh;
