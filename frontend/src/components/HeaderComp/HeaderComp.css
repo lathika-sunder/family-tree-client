@@ -44,3 +44,13 @@
 .home h1 {
   font-size: 2em;
 }
+
+@media (max-width:768px)
+{
+  .login-text{
+    display: none;
+  }
+  .navbar li{
+    display: none;
+  }
+}

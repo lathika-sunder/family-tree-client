@@ -13,7 +13,7 @@ const HeaderComp = () => {
       <div className="navbar">
         <nav>
           <ul>
-            <Link to='/login'><Button variant="text"><LoginIcon/></Button></Link>
+            <Link to='/login'><Button ><span className='togin-text'>Login</span><LoginIcon/></Button></Link>
             <Link to='/'><Button variant="outlined"><HomeIcon/></Button></Link>
             <Link to='/family-tree'><Button variant="contained">Family Tree</Button></Link>
             
